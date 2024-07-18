@@ -1,5 +1,5 @@
 module.exports = {
   databaseConnection: require('./connection'),
 
-  // ex: require('./ex'),
+  PlacemasterRepository: require('./repository/placemaster-repository'),
 }

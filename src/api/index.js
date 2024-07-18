@@ -1,3 +1,3 @@
 module.exports = {
-    // ex: require('./ex'),
+    placemaster: require('./placemaster'),
 }

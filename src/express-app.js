@@ -1,6 +1,7 @@
 const express = require('express');
-// const {} = require('./src/api');
-
+const {
+    placemaster
+} = require('./api');
 
 module.exports = async (app) => {
 
@@ -11,6 +12,7 @@ module.exports = async (app) => {
     app.use(express.json())
 
     //api
+    placemaster(app);
 
     // error handling
     // app.use(HandleErrors);
